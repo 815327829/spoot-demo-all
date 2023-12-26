@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      dll-auto: validate
+  datasource:
+    url: jdbc:mysql://localhost:3306/jav?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+    username: root
+    password: 815327829
+    driver-class-name: com.mysql.jdbc.Driver

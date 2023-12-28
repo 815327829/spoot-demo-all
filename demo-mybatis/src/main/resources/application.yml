@@ -1,0 +1,14 @@
+
+
+
+
+spring:
+  datasource:
+    url: jdbc:mysql:///jav?ServerTimeZone=UTC
+    username: root
+    password: 815327829
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml #mapper映射文件
+  type-aliases-package: com.example.demomybatis.domain
